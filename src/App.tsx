@@ -2,14 +2,13 @@ import { useEffect, useState } from 'react';
 import { useInterval } from './hooks/useInterval';
 import axios from 'axios';
 import { Trophy } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { GameTimer } from './components/GameTimer';
 import { PriceDisplay } from './components/PriceDisplay';
 import { BetControls } from './components/BetControls';
 import { BottomNav } from './components/BottomNav';
 import { ResultModal } from './components/ResultModal';
 import { BetStatus } from './components/BetStatus';
-import { GameState, StoredState, GamePhase } from './types';
+import { GameState, StoredState } from './types';
 import './index.css';
 
 const ROUND_DURATION = 3 * 60 * 1000; // 3 minutes
