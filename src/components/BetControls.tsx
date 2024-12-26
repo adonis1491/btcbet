@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
 
 interface BetControlsProps {
