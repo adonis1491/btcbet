@@ -1,5 +1,4 @@
 import { ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 interface BetControlsProps {
   onBet: (direction: 'up' | 'down', amount: number) => void;
